@@ -109,7 +109,7 @@
    - `ERR_` / `INVALID_` / `maintenance:` / `aiModel:` / `license` / `AUTO_ENGAGEMENT`
 3. メッセージが英語だらけで読みにくい場合は `userMessages.ts` の `toUserFacingMessage` を参照し、「どの系統のエラー」として扱われているかを見る。
 4. それでも判断がつかない場合は、関連しそうなモジュール（usecase / hooks / ui コンポーネント名）と一緒にログをメモして、Issue やサポート用チャンネルに貼る。
-5. 外部仕様変更が疑われる場合は、`docs/external_spec_changes.md` に「何が変わったか」「暫定回避策」を即時記録する。
+5. 外部仕様変更が疑われる場合は、変更内容と暫定回避策をこのガイド末尾の運用メモに追記する。
 
 ## 6. E2E実行メモ（運用記録）
 
